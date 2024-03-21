@@ -1,0 +1,53 @@
+/* Importa as fontes PT Sans Narrow e Poppins com diferentes pesos */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Poppins:wght@500;600;700;800&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    /* Define um fundo com gradiente linear horizontal usando cores específicas */
+    background: linear-gradient(to right, #0086ff, #00b2ff, #00e4ff, #91ffff, #e3ffff);
+    width: 100%; /* Define a largura como 100% */
+    height: 100vh; /* Define a altura como 100% da altura visível da janela */
+    font-family: 'Poppins', sans-serif !important; /* Define a fonte do texto usando Poppins */
+}
+
+/* Estiliza o título h1 dentro de .div-title */
+.div-title h1 {
+    font-size: 66px; /* Define o tamanho da fonte como 66 pixels */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.846); /* Adiciona um sombreamento ao texto */
+}
+
+/* Estiliza o parágrafo dentro de .div-title */
+.div-title p {
+    font-size: 68px; /* Define o tamanho da fonte como 32 pixels */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.565); /* Adiciona um sombreamento ao texto */
+    color: rgba(172, 255, 47, 0.703); /* Define a cor do texto */
+}
+
+/* Estiliza o container .div-word-insertion */
+.div-word-insertion {
+    margin-top: 100px; /* Define a margem superior como 100 pixels */
+    display: flex; /* Usa o modelo de layout flexível */
+    flex-direction: column; /* Define a direção da coluna para organizar os elementos verticalmente */
+    justify-content: center; /* Centraliza os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+/* Estiliza o input dentro de .div-word-insertion */
+.div-word-insertion input {
+    height: 3vh; /* Define a altura do input como 3% da altura visível da janela */
+    padding: 10px; /* Adiciona um preenchimento interno de 10 pixels */
+}
+
+/* Estiliza o container .div-shadow */
+.div-shadow {
+    max-width: max-content; /* Define a largura máxima como o conteúdo máximo */
+}
+
+/* Estiliza o título h2 dentro de .div-eh-palindromo */
+.div-eh-palindromo h2 {
+    color: rgb(23, 135, 11); /* Define a cor do texto */
+}
+
+.imagem-opaca {
+    opacity: 0.5; /* Defina o nível de opacidade desejado */
+}
